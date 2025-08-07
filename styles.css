@@ -269,19 +269,7 @@ body {
   text-align: center;
 }
 
-/* BOUTON DÉCONNEXION */
-.btn-logout {
-  display: block;
-  text-align: center;
-  margin-top: 20px;
-  color: #4A90E2;
-  font-weight: 600;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
 
 .btn-logout:hover {
   color: #357ABD;
 }
-
-
