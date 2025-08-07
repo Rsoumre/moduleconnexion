@@ -3,6 +3,7 @@ session_start();
 include_once 'bdd.php';
 include('header.php');
 
+// un commentaire inutile
 // Vérifie si l'utilisateur est admin
 if (!isset($_SESSION['login']) || $_SESSION['login'] !== 'admin') {
     header('Location: connexion.php');
